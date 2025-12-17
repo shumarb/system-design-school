@@ -11,3 +11,7 @@ System Design focuses on these concepts:
 1. Services: Components, applications, and APIs that provide specific functionality or processing capabilities. Services are created as `microservices` (`monolith`) to enable scalability, maintainability, and flexibility.
 2. Dataflow: Data flow within & between services is crucial to ensure efficient `processing`, `timely communication`, and `accurate` results. This involves understanding the `data formats`, `protocols`, and `communication` pattens between `services`.
 3. Storage: `Databases`, `caches`, and `file systems` required to `store` and `manage` data throughout the system. This involves selecting appropriate storage technologies, data modeling, and ensuring data `consistency` & `durability`.
+
+| Contents                                                                                          |
+|---------------------------------------------------------------------------------------------------|
+| [Requirements](https://github.com/shumarb/system-design-school/blob/main/readmes/requirements.md) |
