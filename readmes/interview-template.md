@@ -5,19 +5,18 @@ This section explains the typical interview process below the staff level at med
 
 | Step                                                                                                                                                                   |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [Clarify Functional Requirements](https://github.com/shumarb/system-design-school/blob/main/readmes/interview-template.md#clarify-functional-requirements)             |
-| [Clarify Non-Functional Requirements](https://github.com/shumarb/system-design-school/blob/main/readmes/interview-template.md#clarify-non-functional-requirements)     |
+| [Clarify Requirements](https://github.com/shumarb/system-design-school/blob/main/readmes/interview-template.md#clarify-requirements)                                   |
 | [Resource Estimation](https://github.com/shumarb/system-design-school/blob/main/readmes/interview-template.md#resource-estimation)                                     |
 | [Core Entities and API Endpoint Design](https://github.com/shumarb/system-design-school/blob/main/readmes/interview-template.md#core-entities-and-api-endpoint-design) |
 
 ## Steps
-### Clarify Functional Requirements
+### Clarify Requirements
+Functional:
 - Which features are already covered by the existing services/APIs?
 - Which features need to be built?
 
-### Clarify Non-Functional Requirements
-Discuss with the interviewer any relevant requirements below:
-- Core requirements:
+Non-Functional:
+- Core:
   - `S`calability: Design the system to be able to handle the target number of users.
   - `A`vailabilty: Design the system to be operational when needed via techniques like `replication` to avoid downtime.
   - `L`atency: Identify the acceptable latency for the system.
