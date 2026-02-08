@@ -35,3 +35,9 @@ Discuss with the interviewer any relevant requirements below:
   - Throughput (in GB/s, needed for video streaming/image-hosting problems).
   - Storage requirements based on data retention and object byte sizing using the number of strings.
   - Identify potential bottlenecks in the system (e.g.: QPS limitations).
+
+### 4. Core Entities and API Endpoint Design
+- `Core Entities` are core domain models required to implement the functional requirements. Its naming style is the `nouns` of the functional requirements (Example: In a social media platform, the core entities are `users`, `likes`, `posts`).
+- `APIs` establish a contract between the `service` and the `end user`. Hence, `REST APIs` are specified to create a `request & response interface`.
+- If the system necessitates bidirectional communication, discuss technologies that facilitate this, such as `Web Sockets`, or server-to-client protocols (e.g.: Server-Sent Events).
+tion, don't forget to discuss technologies that facilitate this, such as WebSockets, or server-to-client messaging protocols like Server-Sent Events.
