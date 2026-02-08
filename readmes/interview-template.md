@@ -11,7 +11,7 @@ This section explains `sections` of typical interview process below the staff le
 | [High-level Design Diagram](https://github.com/shumarb/system-design-school/blob/main/readmes/interview-template.md#high-level-design-diagram)                         |
 | [Detailed Design](https://github.com/shumarb/system-design-school/blob/main/readmes/interview-template.md#detailed-design)                                             |
 
-## Steps
+## Sections
 ### Clarify Requirements
 Functional:
 - Which features are already covered by the existing services/APIs?
