@@ -1,7 +1,12 @@
 # Core Challenges
 
 ## Overview
-Common challenges that systems face sem from serving a large scale of users by adding more machines.
+Modern large-scale data-intensive systems  must be able to do the following in order to serve all users on arbitrarily large data:
+- Replicate its logic.
+- Shard its problem space.
+- Process slow requests asynchronously.
+
+As the system gradually adds machines when the user base grows, here are its common challenges:
 
 | Challenges                                                                                                                                                                |
 |---------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
