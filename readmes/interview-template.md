@@ -3,12 +3,19 @@
 ## Overview
 This section explains the typical interview process below the staff level at medium to large-sized companies, listed sequentially below:
 
+| Step                                                                                                                                                                   |
+|------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [Clarify Functional Requirements](https://github.com/shumarb/system-design-school/blob/main/readmes/interview-template.md#clarify-functional-requirements)             |
+| [Clarify Non-Functional Requirements](https://github.com/shumarb/system-design-school/blob/main/readmes/interview-template.md#clarify-non-functional-requirements)     |
+| [Resource Estimation](https://github.com/shumarb/system-design-school/blob/main/readmes/interview-template.md#resource-estimation)                                     |
+| [Core Entities and API Endpoint Design](https://github.com/shumarb/system-design-school/blob/main/readmes/interview-template.md#core-entities-and-api-endpoint-design) |
+
 ## Steps
-### 1. Clarify Functional Requirements
+### Clarify Functional Requirements
 - Which features are already covered by the existing services/APIs?
 - Which features need to be built?
 
-### 2. Go through Non-Functional Requirements
+### Clarify Non-Functional Requirements
 Discuss with the interviewer any relevant requirements below:
 - Core requirements:
   - `S`calability: Design the system to be able to handle the target number of users.
@@ -21,7 +28,8 @@ Discuss with the interviewer any relevant requirements below:
 - Special
   - Consider GDPR compliance and other privacy requirements depending on the data being stored and processed (e.g.: email).
 
-### 3. Resource Estimation (Optional)
+### Resource Estimation
+- Optional step.
 - Important for infrastructure design questions (e.g.: Design a Rate Limiter).
 - Ask:
   - How many daily users does the system need to support?
@@ -35,7 +43,7 @@ Discuss with the interviewer any relevant requirements below:
   - Storage requirements based on data retention and object byte sizing using the number of strings.
   - Identify potential bottlenecks in the system (e.g.: QPS limitations).
 
-### 4. Core Entities and API Endpoint Design
+### Core Entities and API Endpoint Design
 - `Core Entities` are core domain models required to implement the functional requirements. Its naming style is the `nouns` of the functional requirements (Example: In a social media platform, the core entities are `users`, `likes`, `posts`).
 - `APIs` establish a contract between the `service` and the `end user`. Hence, `REST APIs` are specified to create a `request & response interface`.
 - If the system necessitates bidirectional communication, discuss technologies that facilitate this, such as `Web Sockets`, or server-to-client protocols (e.g.: Server-Sent Events).
