@@ -1,14 +1,15 @@
 # Interview Template
 
 ## Overview
-This section explains the typical interview process below the staff level at medium to large-sized companies, listed sequentially below:
+This section explains `sections` of typical interview process below the staff level at medium to large-sized companies, listed sequentially below:
 
-| Step                                                                                                                                                                   |
+| Sections                                                                                                                                                               |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [Clarify Requirements](https://github.com/shumarb/system-design-school/blob/main/readmes/interview-template.md#clarify-requirements)                                   |
 | [Resource Estimation](https://github.com/shumarb/system-design-school/blob/main/readmes/interview-template.md#resource-estimation)                                     |
 | [Core Entities and API Endpoint Design](https://github.com/shumarb/system-design-school/blob/main/readmes/interview-template.md#core-entities-and-api-endpoint-design) |
 | [High-level Design Diagram](https://github.com/shumarb/system-design-school/blob/main/readmes/interview-template.md#high-level-design-diagram)                         |
+| [Detailed Design](https://github.com/shumarb/system-design-school/blob/main/readmes/interview-template.md#detailed-design)                                             |
 
 ## Steps
 ### Clarify Requirements
@@ -57,3 +58,7 @@ tion, don't forget to discuss technologies that facilitate this, such as WebSock
   - Database model/schema, and which fields to index if required.
 - Ensure design diagram covers every feature in the functional requirements.
 - Focus on key components that are specific to unique problems the system is solving, and don't delve into particulars of specific technologies or use buzzwords.
+
+### Detailed Design
+- Identify parts of the components in the system that could lead to problems and discuss how to handle them (e.g.: modifying design).
+- Propose multiple solutions and discuss their trade-offs (discussing on lines of balancing `scalability`, `latency`, and `consistency`).
