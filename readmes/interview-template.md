@@ -21,8 +21,7 @@ Discuss with the interviewer any relevant requirements below:
 - Special
   - Consider GDPR compliance and other privacy requirements depending on the data being stored and processed (e.g.: email).
 
-### 3. Resource Estimation
-- This step is optional, and the interviewer may say "a lot of data/users".
+### 3. Resource Estimation (Optional)
 - Important for infrastructure design questions (e.g.: Design a Rate Limiter).
 - Ask:
   - How many daily users does the system need to support?
