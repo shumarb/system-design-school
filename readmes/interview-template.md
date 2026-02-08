@@ -8,6 +8,7 @@ This section explains the typical interview process below the staff level at med
 | [Clarify Requirements](https://github.com/shumarb/system-design-school/blob/main/readmes/interview-template.md#clarify-requirements)                                   |
 | [Resource Estimation](https://github.com/shumarb/system-design-school/blob/main/readmes/interview-template.md#resource-estimation)                                     |
 | [Core Entities and API Endpoint Design](https://github.com/shumarb/system-design-school/blob/main/readmes/interview-template.md#core-entities-and-api-endpoint-design) |
+| [High-level Design Diagram](https://github.com/shumarb/system-design-school/blob/main/readmes/interview-template.md#high-level-design-diagram)                         |
 
 ## Steps
 ### Clarify Requirements
@@ -47,3 +48,12 @@ Non-Functional:
 - `APIs` establish a contract between the `service` and the `end user`. Hence, `REST APIs` are specified to create a `request & response interface`.
 - If the system necessitates bidirectional communication, discuss technologies that facilitate this, such as `Web Sockets`, or server-to-client protocols (e.g.: Server-Sent Events).
 tion, don't forget to discuss technologies that facilitate this, such as WebSockets, or server-to-client messaging protocols like Server-Sent Events.
+
+### High-level Design Diagram
+- Draw a high-level system design that includes:
+  - Main components of the system and how they interact with each other.
+  - Data flow: How data moves through the system.
+  - Traffic pattern (if relevant to problem): Show how the system handles different types of traffic (e.g.: push vs pull for Twitter).
+  - Database model/schema, and which fields to index if required.
+- Ensure design diagram covers every feature in the functional requirements.
+- Focus on key components that are specific to unique problems the system is solving, and don't delve into particulars of specific technologies or use buzzwords.
