@@ -8,12 +8,12 @@ Modern large-scale data-intensive systems  must be able to do the following in o
 
 As the system gradually adds machines when the user base grows, here are its common challenges:
 
-| Challenges                                                                                                                                                                |
-|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [Too Many Concurrent Users](https://github.com/shumarb/system-design-school/blob/main/readmes/core-challenges.md#too-many-concurrent-users)                               |
-| [Too Much Data to Move Around](https://github.com/shumarb/system-design-school/blob/main/readmes/core-challenges.md#too-much-data-to-move-around)                         |
+| Challenge                                                                                                                                                                |
+|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [Too Many Concurrent Users](https://github.com/shumarb/system-design-school/blob/main/readmes/core-challenges.md#too-many-concurrent-users)                              |
+| [Too Much Data to Move Around](https://github.com/shumarb/system-design-school/blob/main/readmes/core-challenges.md#too-much-data-to-move-around)                        |
 | [The System should be Fast and Responsive](https://github.com/shumarb/system-design-school/blob/main/readmes/core-challenges.md#the-system-should-be-fast-and-responsive) |
-| [Inconsistent (Outdated) States](https://github.com/shumarb/system-design-school/blob/main/readmes/core-challenges.md#inconsistent-outdated-states)                       |
+| [Inconsistent (Outdated) States](https://github.com/shumarb/system-design-school/blob/main/readmes/core-challenges.md#inconsistent-outdated-states)                      |
 
 ## Challenges
 ### Too Many Concurrent Users

@@ -3,13 +3,13 @@
 ## Overview
 This section explains `sections` of typical interview process below the staff level at medium to large-sized companies, listed sequentially below:
 
-| Sections                                                                                                                                                               |
-|------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [Clarify Requirements](https://github.com/shumarb/system-design-school/blob/main/readmes/interview-template.md#clarify-requirements)                                   |
-| [Resource Estimation](https://github.com/shumarb/system-design-school/blob/main/readmes/interview-template.md#resource-estimation)                                     |
+| Topic                                                                                                                                                                 |
+|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [Clarify Requirements](https://github.com/shumarb/system-design-school/blob/main/readmes/interview-template.md#clarify-requirements)                                  |
+| [Resource Estimation](https://github.com/shumarb/system-design-school/blob/main/readmes/interview-template.md#resource-estimation)                                    |
 | [Core Entities and API Endpoint Design](https://github.com/shumarb/system-design-school/blob/main/readmes/interview-template.md#core-entities-and-api-endpoint-design) |
-| [High-level Design Diagram](https://github.com/shumarb/system-design-school/blob/main/readmes/interview-template.md#high-level-design-diagram)                         |
-| [Detailed Design](https://github.com/shumarb/system-design-school/blob/main/readmes/interview-template.md#detailed-design)                                             |
+| [High-level Design Diagram](https://github.com/shumarb/system-design-school/blob/main/readmes/interview-template.md#high-level-design-diagram)                        |
+| [Detailed Design](https://github.com/shumarb/system-design-school/blob/main/readmes/interview-template.md#detailed-design)                                            |
 
 ## Sections
 ### Clarify Requirements
