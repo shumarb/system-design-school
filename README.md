@@ -4,7 +4,8 @@
 This repository is a summary of concepts learnt on [System Design School](https://systemdesignschool.io/).
 
 ### Basics
-| Contents                                                                                          |
-|---------------------------------------------------------------------------------------------------|
-| [Introduction](https://github.com/shumarb/system-design-school/blob/main/readmes/introduction.md) |
-| [Requirements](https://github.com/shumarb/system-design-school/blob/main/readmes/requirements.md) |
+| Contents                                                                                                      |
+|---------------------------------------------------------------------------------------------------------------|
+| [Introduction](https://github.com/shumarb/system-design-school/blob/main/readmes/introduction.md)             |
+| [Requirements](https://github.com/shumarb/system-design-school/blob/main/readmes/requirements.md)             |
+| [Interview Template](https://github.com/shumarb/system-design-school/blob/main/readmes/interview-template.md) |
