@@ -35,4 +35,3 @@ Discuss with the interviewer any relevant requirements below:
   - Throughput (in GB/s, needed for video streaming/image-hosting problems).
   - Storage requirements based on data retention and object byte sizing using the number of strings.
   - Identify potential bottlenecks in the system (e.g.: QPS limitations).
-  - 
