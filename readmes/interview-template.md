@@ -3,11 +3,11 @@
 ## Overview
 This section explains the typical interview process below the staff level at medium to large-sized companies, listed sequentially below:
 
-### Clarify Functional Requirements
+1. Clarify Functional Requirements
 - Which features are already covered by the existing services/APIs?
 - Which features need to be built?
 
-### Go through Non-Functional Requirements
+2. Go through Non-Functional Requirements
 Discuss with the interviewer any relevant requirements below:
 - Core requirements:
   - `S`calability: Design the system to be able to handle the target number of users.
