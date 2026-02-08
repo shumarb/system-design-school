@@ -7,5 +7,4 @@ This repository is a summary of concepts learnt on [System Design School](https:
 | Contents                                                                                                      |
 |---------------------------------------------------------------------------------------------------------------|
 | [Introduction](https://github.com/shumarb/system-design-school/blob/main/readmes/introduction.md)             |
-| [Requirements](https://github.com/shumarb/system-design-school/blob/main/readmes/requirements.md)             |
 | [Interview Template](https://github.com/shumarb/system-design-school/blob/main/readmes/interview-template.md) |

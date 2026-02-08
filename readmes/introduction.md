@@ -1,10 +1,10 @@
 # Introduction
 
-| Topic                                                  |
-|--------------------------------------------------------|
-| Overview                                               |
-| Requirements                                           |
-| Comparison to Object-Oriented Programming (OOP) Design |
+| Topics                                                                                                                                                                                           |
+|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [Overview](https://github.com/shumarb/system-design-school/blob/main/readmes/introduction.md#overview)                                                                                           |
+| [Requirements](https://github.com/shumarb/system-design-school/blob/main/readmes/introduction.md#requirements)                                                                                   |
+| [Comparison to Object-Oriented Programming (OOP) Design](https://github.com/shumarb/system-design-school/blob/main/readmes/introduction.md#comparison-to-object-oriented-programming-oop-design) |
 
 ## Overview
 System Design is the process of designing a complex system to meet specific `requirements` and `goals`, typically aimed at providing a service to the end user.
