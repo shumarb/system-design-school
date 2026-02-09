@@ -1,9 +1,9 @@
 # Introduction
 
-| Topic                                                                                                                                                                                           |
-|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [Overview](https://github.com/shumarb/system-design-school/blob/main/readmes/introduction.md#overview)                                                                                          |
-| [Requirements](https://github.com/shumarb/system-design-school/blob/main/readmes/introduction.md#requirements)                                                                                  |
+| Topic                                                                                                                                                                                            |
+|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [Overview](https://github.com/shumarb/system-design-school/blob/main/readmes/introduction.md#overview)                                                                                           |
+| [Requirements](https://github.com/shumarb/system-design-school/blob/main/readmes/introduction.md#requirements)                                                                                   |
 | [Comparison to Object-Oriented Programming (OOP) Design](https://github.com/shumarb/system-design-school/blob/main/readmes/introduction.md#comparison-to-object-oriented-programming-oop-design) |
 
 ## Overview
