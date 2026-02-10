@@ -10,6 +10,8 @@ This can be achieved via:
 | [Decomposition](https://github.com/shumarb/system-design-school/blob/main/readmes/how-to-scale-a-system.md#decomposition)           |
 | [Vertical Scaling](https://github.com/shumarb/system-design-school/blob/main/readmes/how-to-scale-a-system.md#vertical-scaling)     |
 | [Horizontal Scaling](https://github.com/shumarb/system-design-school/blob/main/readmes/how-to-scale-a-system.md#horizontal-scaling) |
+| [Partitioning](https://github.com/shumarb/system-design-school/blob/main/readmes/how-to-scale-a-system.md#partitioning)             |
+| [Caching](https://github.com/shumarb/system-design-school/blob/main/readmes/how-to-scale-a-system.md#caching)                       |
 
 ## Technique
 ### Decomposition
@@ -22,3 +24,11 @@ This can be achieved via:
 ### Horizontal Scaling
 - Scaling via running multiples instances of `stateless` services.
 - Stateless nature enables seamless distribution of requests across instances using load balancers.
+
+### Partitioning
+- Split requests and data into `shards` and distribute them across `services`/`databases`,
+- E.g.: Partition data based on user ID.
+- Implement `consistent hashing` to ensure balanced partitioning.
+
+### Caching
+- Improve query read performance and reduce database load by storing frequently-accessed data in faster memory storage (e.g.: in-memory caches, Redis, Memcached).
