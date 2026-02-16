@@ -32,3 +32,8 @@ This can be achieved via:
 
 ### Caching
 - Improve query read performance and reduce database load by storing frequently-accessed data in faster memory storage (e.g.: in-memory caches, Redis, Memcached).
+
+## Buffer with Message Queues
+- High-concurrency scenarios often encounter write-intensive operations.
+- Frequent database writes can overload system due to disk I/O bottlenecks.
+- Message queues buffer write requests, changing synchronous operations into asynchronous ones to ensure database write requests levels are manageable and prevent system crashes.
