@@ -19,7 +19,7 @@ This can be achieved via:
 - Each microservice should focuses on a single responsibility to enhance scalability and maintainability.
 
 ### Vertical Scaling
-- Scale up via using more powerful machines (e.g.: Cloud Computing).
+- Increasing the capacity of a single machine by adding more resources (e.g.: CPU, Memory, etc.) rather than adding more instances of a service.
 
 ### Horizontal Scaling
 - Scaling via running multiples instances of `stateless` services.
